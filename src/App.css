@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.listing__main {
+  margin: 10px auto;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+.text__center {
+  text-align: center;
+}
+.listing__header {
+  background-image: url("https://www.savethestudent.org/uploads/flights.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 99vw;
+  height: fit-content;
+  background-size: cover;
+}
+.listing__search {
+  color: bisque;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form__div {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.radio__button {
+  display: flex;
+  justify-content: center;
+}
+.card__div {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.card__body {
+  height: 200px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
